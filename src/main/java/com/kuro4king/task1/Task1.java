@@ -1,6 +1,7 @@
 public class Task1 {
     public static void main(String[] args) {
-
-        new Threads();
+        for (int i = 0; i < 10; i++) {
+            new Threads();
+        }
     }
 }
